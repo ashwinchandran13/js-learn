@@ -1,3 +1,17 @@
+ // PS: same output even if function called multiple times
+
+//  function outer() {
+//     let counter = 0;
+//     function inner() {
+//         counter ++;
+//         console.log(counter)
+//     }
+//     inner()
+//  }
+ 
+//  outer()
+//  outer()
+ 
  /* closure: when a function returns another function, 
     we are returing the combination of function definition
     along with function scope. This would let the function definition
