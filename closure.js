@@ -30,6 +30,7 @@
  }
 
  const fn = outer()
- // calling inner function twice
+//  calling inner function twice
+ fn()
  fn()
  fn()
